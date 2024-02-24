@@ -1,0 +1,81 @@
+nav {
+  background-color: #13a06a;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.route{
+  text-decoration: none;
+  color: #fffefe;
+  font-size: x-large;
+}
+
+footer p{
+  text-align: center;
+  background-color: #333;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.center-image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #13a06a;
+  align-items: center;
+}
+.featured-manga{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  margin: 10px;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 55%;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.other{
+  padding: 10px;
+  text-align: center;
+}
+.featured-manga-volumes{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(218px, 200px));
+  margin: 10px;
+  gap: 2rem;
+  justify-content: center;
+  background: #c8c8c8;
+  padding: 10px;
+  border: 1px solid rgb(125, 124, 124);
+  border-radius: 10px;
+}
+
+.fortnite-section{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:5rem;
+  margin: 20px;
+  border: #333;
+}
+.fortnite-section-images{
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(125, 124, 124);
+  border-radius: 10px;
+}
+
+.about-para{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  font-family:sans-serif;
+}
